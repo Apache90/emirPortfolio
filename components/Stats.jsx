@@ -15,10 +15,10 @@ const stats = [
         num: 6,
         text: "Tecnologias que manejo",
     },
-    {
+    /*{
         num: 231,
         text: "Commits en Github",
-    },
+    },*/
 ];
 
 const Stats = () => {
@@ -29,7 +29,7 @@ const Stats = () => {
                 {stats.map((item, index)=>{
                     return(
                         <div 
-                            className="flex-1 flex gap-4 items-center justify-center xl:justify-start"
+                            className="flex-1 flex gap-4 items-center justify-center xl:justify-center"
                             key={index}>
                             <CountUp 
                             end={item.num}
