@@ -19,9 +19,9 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 
 const about = {
-  title: "Sobre mi",
+  title: "Algunos datos extra",
   description:
-    "lorem Ipsum is simply dummy text, Lorem Ipsum is a utility utility for maintaining lorem Ips tempor inv contexts et dolor.",
+    "",
   info: [
     {
       fieldName: "Nombre",
@@ -54,7 +54,7 @@ const experience = {
   icon: "/emir-portfolio/public/assets/badge.svg",
   title: "Mi experiencia",
   description:
-    "lorem Ipsum is simply dummy text, Lorem Ipsum is a utility utility for maintaining lorem Ips tempor inv contexts et dolor.",
+    "Desde 2023 me he desempeñado como QA & Board Manager en Doors Tickets, donde he implementado y supervisado procesos de calidad y gestionado el ciclo de vida de los proyectos. Simultáneamente, desde 2024, trabajo como FullStack Developer en SoftFusion Technologies, desarrollando aplicaciones completas y soluciones tecnológicas. Además, desde 2022, he trabajado como FullStack Developer independiente, colaborando en diversos proyectos que abarcan una amplia gama de tecnologías y soluciones personalizadas para diferentes clientes.",
   items: [
     {
       company: "Doors Tickets",
@@ -78,7 +78,7 @@ const education = {
   icon: "/emir-portfolio/public/assets/cap.svg",
   title: "Mi formación",
   description:
-    "lorem Ipsum is simply dummy text, Lorem Ipsum is a utility utility for maintaining lorem Ips tempor inv contexts et dolor.",
+    "Mi formación académica incluye un curso de Programación Fullstack de Rolling Code School (2022), el título proximo a obtener de Técnico Universitario en Programación de Software de la UTN FRT (2022-2024), un curso de Quality Assurance de Underc0de - QARMY (2023), la certificación de Postman API Fundamentals Student Expert (2023), la certificación Scrum Fundamentals Certified (SFC™) de SCRUMstudy (2023) y un curso de Testing en ASTFC (2023).",
   items: [
     {
       institution: "Rolling Code School",
