@@ -79,7 +79,7 @@ const education = {
   icon: "/emir-portfolio/public/assets/cap.svg",
   title: "Mi formación",
   description:
-    "Mi formación académica incluye un curso de Programación Fullstack de Rolling Code School (2022), el título proximo a obtener de Técnico Universitario en Programación de Software de la UTN FRT (2022-2024), un curso de Quality Assurance de Underc0de - QARMY (2023), la certificación de Postman API Fundamentals Student Expert (2023), la certificación Scrum Fundamentals Certified (SFC™) de SCRUMstudy (2023) y un curso de Testing en ASTFC (2023).",
+    "Mi formación académica incluye varios cursos uno de los mas destacados es el de Programación Fullstack de Rolling Code School (2022), a demas cuento con el título proximo a obtener de Técnico Universitario en Programación de Software de la UTN FRT (2022-2024), varios cursos de Quality Assurance donde el mas destacadoes con Underc0de - QARMY (2023), y una certificación de Postman API Fundamentals Student Expert (2023), tambien cuento con formacion en metodologias agiles, obtuve la certificación Scrum Fundamentals Certified (SFC™) de SCRUMstudy (2023) y tambien obtuve una acreditacion en Testing, Accredited Software Testing Fundamentals Certification (AICS® ASTFC) (2023).",
   items: [
     {
       institution: "Rolling Code School",
