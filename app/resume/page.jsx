@@ -7,7 +7,8 @@ import {
   DiGit,
   DiMysql,
 } from "react-icons/di";
-import { SiPostman, SiTailwindcss, SiNextdotjs } from "react-icons/si";
+
+import { SiPostman, SiTailwindcss, SiNextdotjs, SiCsharp } from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Tooltip,
@@ -29,7 +30,7 @@ const about = {
     },
     {
       fieldName: "Experiencia",
-      fieldValue: "3+ años",
+      fieldValue: "2+ años",
     },
     {
       fieldName: "Telefono",
@@ -130,8 +131,8 @@ const skills = {
       name: "React.js",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "Next.js",
+      icon: <SiCsharp />,
+      name: "C#",
     },
     {
       icon: <DiGit />,
