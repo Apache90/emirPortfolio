@@ -23,7 +23,7 @@ const projects = [
       "Proyecto de un ecommerce para negocio multimarca de venta de calzado.",
     stack: [{ name: "JavaScript" }, { name: "HTML" }, { name: "CSS" }],
     image: "/assets/SNKR2.png",
-    live: "",
+    live: "https://ec0mmerce-demo.netlify.app/",
   },
   {
     num: "02",
@@ -52,7 +52,7 @@ const projects = [
       { name: "Tailwind.css" },
     ],
     image: "/assets/GOPACK1.png",
-    live: "",
+    live: "https://gopack.netlify.app/",
   },
   {
     num: "04",
@@ -66,7 +66,7 @@ const projects = [
       { name: "Tailwind.css" },
     ],
     image: "/assets/ANDINA1.png",
-    live: "",
+    live: "https://azucar-andina.netlify.app/",
   },
   {
     num: "05",
@@ -76,7 +76,7 @@ const projects = [
       "Proyecto para un gimnasio mostrando su vision, marcas con la que trabaja, planes de abono y programas de entrenamiento ofrecidos tambien un medio para contactarlos",
     stack: [{ name: "javaScript" }, { name: "HTML" }, { name: "CSS" }],
     image: "/assets/RAGNAR1.png",
-    live: "",
+    live: "https://ragnar-gym.netlify.app/",
   },
 ];
 
@@ -119,13 +119,13 @@ const Work = () => {
               </ul>
               <div className="border border-accent/30"></div>
               <div className="flex items-center gap-4">
-                <Link href={project.live}>
+                <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[180px] h-[50px] rounded-full bg-accent/50 flex justify-center items-center group mt-2">
-                        <p className="text-black text-xl group-hover:text-white font-bold">
+                        <a className="text-black text-xl group-hover:text-white font-bold" >
                           LIVE DEMO!
-                        </p>
+                        </a>
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>Ir al proyecto</p>
