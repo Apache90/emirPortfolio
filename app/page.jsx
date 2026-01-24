@@ -11,29 +11,29 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl text-black/70">Software Developer</span>
+            <span className="text-xl text-black/70">QA Analyst | Dev</span>
             <h1 className="h1 mb-6 text-black">
               Hola soy
               <br /> <span className="text-accent">Emir Segovia</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-black/70">
-              Tecnico universitario en Programación formado en la Universidad
-              Tecnológica Nacional [Argentina]. Me considero una persona
-              proactiva que valora la importancia de la comunicación y el
-              trabajo en equipo. Me encuentro en constante aprendizaje para
-              ampliar mis conocimientos y así poder ofrecer lo mejor de mí en
-              cada oportunidad.
+              Soy una persona proactiva, con sólidas habilidades de comunicación 
+              y que entiende la importancia del trabajo en equipo. Me motiva aportar 
+              valor en cada proyecto, brindando lo necesario para alcanzar los objetivos 
+              de manera eficiente. Disfruto aprender continuamente y seguir creciendo, 
+              lo que me permite adaptarme con facilidad y dar siempre lo mejor de mí 
+              ante cada nuevo desafío.
             </p>
             {/* redes */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
                 variant="outline"
                 size="lg"
-                className="uppercase flex items-center gap-2 text-black/70"
+                className="uppercase flex items-center gap-2 text-black/70 hover:text-white"
               >
                 <a
-                  href="/download/Cv_Emir_Segovia.pdf"
-                  download="Cv_Emir_Segovia"
+                  href="/download/EmirSegovia_Cv.pdf"
+                  download="EmirSegovia_Cv"
                 >
                   DESCARGAR CV
                 </a>
